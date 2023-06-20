@@ -1,22 +1,28 @@
 package week1.day1;
 
 public class Mobile {
+
 	
-	public static void main(String[] arg)  {
-	String mobilecolour="black";
-  String name="vivo";
-boolean ischarged=true;
-char logo='#';
-long imei=1234578;
-
-
-System.out.println(mobilecolour);
-System.out.println(name);
-System.out.println(ischarged);
-System.out.println(logo);
-System.out.println(imei);
-		
+		public void Sendmsg() {
+			System.out.println("sendmsg");}
+			
+			protected void Makecall() {
+		System.out.println("Makecall");}
+			
+			public static void main(String[] args) {
+				
+				String mobilemodel="vivo";
+				double mobileweight=0.750;
+				boolean isfullycharged=true;
+				int mobilecost=12000;
+				System.out.println(mobilemodel);
+				System.out.println(mobileweight);
+				System.out.println(isfullycharged);
+				System.out.println(mobilecost);
+				
+			}
+			
 
 	}
 
-}
+
